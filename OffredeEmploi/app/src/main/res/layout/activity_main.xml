@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="190dp"
+        android:minHeight="60dp"
+        android:layout_alignParentBottom="true">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="bottom"
+        android:id="@+id/form_buttonEnrollement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:minHeight="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="Enregistrement CV" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="bottom"
+        android:id="@+id/form_buttonVisualisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:text="Affichage CV"/>
+</RelativeLayout>
